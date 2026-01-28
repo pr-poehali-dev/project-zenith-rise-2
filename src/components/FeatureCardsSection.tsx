@@ -1,9 +1,12 @@
 import { motion } from "framer-motion"
 import { ChevronRight, Plus } from "lucide-react"
+import { useNavigate } from "react-router-dom"
 
 const featureCards = [
   {
-    title: "Шаблон Архива #1",
+    id: "1",
+    title: "KislitGrief (KrUzo)",
+    subtitle: "2016-2019",
     illustration: (
       <div className="relative w-full h-full flex items-center justify-center overflow-hidden rounded-lg">
         <svg
@@ -51,7 +54,9 @@ const featureCards = [
     ),
   },
   {
-    title: "Шаблон Архива #2",
+    id: "2",
+    title: "Архив #2",
+    subtitle: "Скоро",
     illustration: (
       <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
         <img
@@ -64,7 +69,9 @@ const featureCards = [
     ),
   },
   {
-    title: "Шаблон Архива #3",
+    id: "3",
+    title: "Архив #3",
+    subtitle: "Скоро",
     illustration: (
       <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
         <img
@@ -79,6 +86,8 @@ const featureCards = [
 ]
 
 export function FeatureCardsSection() {
+  const navigate = useNavigate()
+
   return (
     <div className="relative z-20 py-40" style={{ backgroundColor: "#09090B" }}>
       <div
@@ -130,6 +139,7 @@ export function FeatureCardsSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.2 + index * 0.1 }}
+                onClick={() => navigate(`/archive/${card.id}`)}
                 className="bg-zinc-900/50 border border-zinc-800 hover:border-zinc-700 transition-colors cursor-pointer group overflow-hidden relative flex flex-col justify-end"
                 style={{
                   aspectRatio: "336 / 360",
@@ -151,7 +161,10 @@ export function FeatureCardsSection() {
                   className="relative z-10 flex items-center justify-between w-full"
                   style={{ padding: "0 24px 40px", gap: "16px" }}
                 >
-                  <h3 className="text-white font-medium text-lg leading-tight">{card.title}</h3>
+                  <div className="flex-1">
+                    <h3 className="text-white font-medium text-lg leading-tight">{card.title}</h3>
+                    <p className="text-zinc-500 text-sm mt-1">{card.subtitle}</p>
+                  </div>
                   <div className="w-8 h-8 rounded-full border border-zinc-700 flex items-center justify-center text-zinc-500 group-hover:border-zinc-500 group-hover:text-zinc-300 transition-colors flex-shrink-0">
                     <Plus className="w-4 h-4" />
                   </div>
