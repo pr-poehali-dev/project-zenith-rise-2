@@ -55,12 +55,124 @@ const archives = [
   },
   {
     id: "3",
-    name: "Архив #3",
-    nicknames: "Имена скоро появятся",
-    period: "2018-2021",
-    owner: null,
+    name: "Kykyzla Grief (Герман Ханин)",
+    nicknames: "Герман Король, Кукузла Гриф, Герман Ханин, kkzlss, kkzlgrf, Kykyzless",
+    period: "2016-2021",
+    owner: "Владелец Сообщества: «Майнкрафт с Кукузлой» (2017)",
     communities: [],
-    vkLinks: [],
+    vkLinks: [
+      "vk.ru/GermanHanin",
+      "vk.me/german8713",
+      "vk.ru/kykyzlagrief",
+      "vk.ru/kykyzlahyz",
+      "vk.ru/kkzlgrf",
+    ],
+    archiveLinks: [
+      "https://archive.fo/X9wDA",
+      "https://archive.fo/ydKW4",
+    ],
+    youtubeChannel: "https://youtube.com/@kykyzlagrief",
+    description: null,
+  },
+  {
+    id: "4",
+    name: "Денис Мертвый (Denis Dead)",
+    nicknames: "Денис Мертвый, Denis Dead",
+    period: "2019-2022",
+    owner: "Владелец сообществ: SaintSouls (Founder) (2020)",
+    communities: ["vk.ru/saintsouls"],
+    vkLinks: [
+      "vk.com/id572738175",
+    ],
+    archiveLinks: ["https://archive.fo/gJxT7"],
+    description: null,
+  },
+  {
+    id: "5",
+    name: "Владислав Интерамов (NackenzieGrief)",
+    nicknames: "Влад Интерамов, Аврелиан Интерамнский, Nackenzie Grief, Imperator Nackenzie, Иван Кесаримов/Кесаримский, LorenzoGrief, KollyGrief, Neywood, Kesarim, Lackenzee",
+    period: "2018-2021",
+    owner: "Владелец сообществ: DirtyAlliance, SharmeCompany, UDPMonster, UDPAttack, Crimeless",
+    communities: [
+      "vk.com/DirtyAlliance",
+      "vk.com/SharmeCompany",
+      "vk.com/udpmonster",
+      "vk.ru/jsdjkfojsdojifo",
+    ],
+    vkLinks: [
+      "vk.com/ImperatorNackenzie",
+      "vk.com/NackenzieGrief",
+      "vk.com/Nackenzie",
+      "vk.com/behehfjsa",
+      "instagram.com/imperatornackenzie",
+      "instagram.com/nackenziegrief",
+      "@nackenziegrief",
+      "@nackenzie",
+      "vk.ru/i.kesarimov",
+      "vk.ru/Nackenzie",
+      "t.me/dercetm",
+    ],
+    archiveLinks: ["https://archive.fo/4QC0s"],
+    description: null,
+  },
+  {
+    id: "6",
+    name: "Александр Гаусс (Сейл)",
+    nicknames: "Alexander Gaus, SailGrief, Гаусс",
+    period: "2017-2025",
+    owner: "Владелец сообществ: FullD (Owner) (2017), DeanonSay (Owner), EvilVime (Founder) (2018), TeslaCrime (Founder) (2024), RiseDeanon (2020)",
+    communities: [
+      "t.me/fulldeanonymization",
+      "t.me/+v8Zp6v5ef3AyNTk0",
+      "t.me/+t_J3H2sZmmthNjJi",
+      "t.me/+GfjkfWcJ0ShjMDE0",
+      "vk.ru/risedeanon",
+      "vk.ru/fulldeanon",
+      "vk.ru/evilvime",
+      "vk.ru/teslacrime",
+    ],
+    vkLinks: [
+      "vk.ru/sailgrief",
+      "@sailgrief",
+      "vk.ru/id452563574",
+    ],
+    archiveLinks: ["https://archive.fo/CVFVp"],
+    description: null,
+  },
+  {
+    id: "7",
+    name: "Мирослав Маньяк (Максим Хоменко)",
+    nicknames: "Мирослав Маньяк, Максим Хоменко",
+    period: "2016-2021",
+    owner: "Владелец сообщества: «.sekhmet», «Eirene»",
+    communities: [
+      "vk.ru/eireneee",
+      "vk.ru/sekhmettt",
+    ],
+    vkLinks: [
+      "vk.ru/scarymaniac",
+      "vk.ru/id636047162",
+      "vk.ru/fuckingmaniac",
+    ],
+    archiveLinks: [
+      "https://archive.fo/rbqYY",
+      "https://archive.fo/zIwyO",
+    ],
+    description: null,
+  },
+  {
+    id: "8",
+    name: "Георгий Герасимов",
+    nicknames: "Георгий Герасимов, Андрей Чернов, Себастьян Блантов",
+    period: "2016-2020",
+    owner: "Владелец сообществ: TemporayCompanu, CounterLow",
+    communities: [
+      "vk.ru/TemporaryCompanu",
+      "vk.ru/counterlow",
+    ],
+    vkLinks: [
+      "vk.ru/id323021423",
+    ],
     archiveLinks: [],
     description: null,
   },
@@ -84,7 +196,10 @@ const archives = [
     nicknames: "Максим Ландышев, Демонейт, demonate, Brain Show, Максим Сумской, Максим Демон, MaxMaxMax, SITOX, мировид",
     period: "2017-2020",
     owner: "Владелец сообществ: SweezyLegend (2017)",
-    communities: ["vk.ru/iconaazadel", "vk.ru/yt.demonate"],
+    communities: [
+      "vk.ru/iconaazadel",
+      "vk.ru/yt.demonate",
+    ],
     vkLinks: [
       "vk.ru/demonate",
       "vk.ru/bn_show",
@@ -136,7 +251,11 @@ const archives = [
     nicknames: "Клавдий Интерамнский, slanegrief, Akanori",
     period: "2016-2022",
     owner: null,
-    communities: ["vk.ru/sekhmettt", "vk.ru/eireneee", "vk.ru/DirtyAlliance"],
+    communities: [
+      "vk.ru/sekhmettt",
+      "vk.ru/eireneee",
+      "vk.ru/DirtyAlliance",
+    ],
     vkLinks: [
       "vk.ru/allreadyleft",
       "vk.ru/id694515802",
@@ -148,7 +267,7 @@ const archives = [
     id: "23",
     name: "FrightChronicles",
     nicknames: null,
-    period: "Дата создания: 2020 год",
+    period: "2020",
     owner: "Владелец сообщества: Edwin Garrison",
     communities: [],
     vkLinks: [],
@@ -211,9 +330,7 @@ export default function Archive() {
               )}
 
               <div className="mb-6">
-                <h2 className="text-zinc-400 text-sm mb-2">
-                  {archive.id === "23" ? "Дата создания" : "Дата пребывания"}
-                </h2>
+                <h2 className="text-zinc-400 text-sm mb-2">Дата пребывания</h2>
                 <p className="text-white text-lg">{archive.period}</p>
               </div>
 
@@ -242,9 +359,7 @@ export default function Archive() {
 
               {archive.vkLinks.length > 0 && (
                 <div className="relative mb-6">
-                  <h2 className="text-white text-lg mb-4">
-                    {archive.id === "10" ? "Социальные сети" : "Все страницы ВКонтакте"}
-                  </h2>
+                  <h2 className="text-white text-lg mb-4">Социальные сети</h2>
                   
                   <div className="relative">
                     <div 
@@ -254,46 +369,55 @@ export default function Archive() {
                         MozUserSelect: "none",
                         msUserSelect: "none"
                       }}
+                      aria-hidden="true"
                     >
-                      {archive.vkLinks.slice(0, 6).map((link, index) => (
-                        <div key={index} className="text-zinc-400 mb-2">
+                      {archive.vkLinks.map((link, index) => (
+                        <div key={index} className="text-zinc-400 text-base mb-2 font-mono">
                           {link}
                         </div>
                       ))}
-                      {archive.vkLinks.length > 6 && (
-                        <>
-                          <div className="text-zinc-400 mb-2">...</div>
-                          <div className="text-zinc-400 mb-2">Ещё {archive.vkLinks.length - 6} ссылок</div>
-                        </>
-                      )}
                     </div>
 
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      {!showVerificationError ? (
-                        <button
-                          onClick={handleShowArchive}
-                          className="px-6 py-3 bg-white text-zinc-900 font-medium rounded-lg hover:bg-zinc-100 transition-colors flex items-center gap-2"
-                        >
-                          <Lock className="w-4 h-4" />
-                          Показать весь архив
-                        </button>
-                      ) : (
-                        <motion.div
-                          initial={{ opacity: 0, scale: 0.9 }}
-                          animate={{ opacity: 1, scale: 1 }}
-                          className="bg-zinc-900 border border-zinc-700 rounded-lg p-6 text-center max-w-md"
-                        >
-                          <div className="w-12 h-12 bg-red-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <Lock className="w-6 h-6 text-red-400" />
-                          </div>
-                          <p className="text-white text-lg font-medium mb-2">
-                            Вы не верифицированы
-                          </p>
-                          <p className="text-zinc-400 text-sm">
-                            Пожалуйста, пройдите верификацию для доступа к полному архиву
-                          </p>
-                        </motion.div>
-                      )}
+                    <div className="absolute inset-0 flex items-center justify-center z-10">
+                      <button
+                        onClick={handleShowArchive}
+                        className="bg-red-600/20 border border-red-600/50 rounded-xl px-6 py-3 flex items-center gap-2 hover:bg-red-600/30 transition-all backdrop-blur-sm"
+                      >
+                        <Lock className="w-5 h-5 text-red-500" />
+                        <span className="text-white font-medium">Вы не верифицированы</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {archive.youtubeChannel && (
+                <div className="relative mb-6">
+                  <h2 className="text-white text-lg mb-4">YouTube канал</h2>
+                  
+                  <div className="relative">
+                    <div 
+                      className="filter blur-[12px] select-none pointer-events-none"
+                      style={{ 
+                        WebkitUserSelect: "none",
+                        MozUserSelect: "none",
+                        msUserSelect: "none"
+                      }}
+                      aria-hidden="true"
+                    >
+                      <div className="text-zinc-400 text-base mb-2 font-mono">
+                        {archive.youtubeChannel}
+                      </div>
+                    </div>
+
+                    <div className="absolute inset-0 flex items-center justify-center z-10">
+                      <button
+                        onClick={handleShowArchive}
+                        className="bg-red-600/20 border border-red-600/50 rounded-xl px-6 py-3 flex items-center gap-2 hover:bg-red-600/30 transition-all backdrop-blur-sm"
+                      >
+                        <Lock className="w-5 h-5 text-red-500" />
+                        <span className="text-white font-medium">Вы не верифицированы</span>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -301,7 +425,7 @@ export default function Archive() {
 
               {archive.archiveLinks.length > 0 && (
                 <div className="relative">
-                  <h2 className="text-white text-lg mb-4">Архив страницы</h2>
+                  <h2 className="text-white text-lg mb-4">Архивы страниц</h2>
                   
                   <div className="relative">
                     <div 
@@ -311,45 +435,46 @@ export default function Archive() {
                         MozUserSelect: "none",
                         msUserSelect: "none"
                       }}
+                      aria-hidden="true"
                     >
                       {archive.archiveLinks.map((link, index) => (
-                        <div key={index} className="text-zinc-400 mb-2">
+                        <div key={index} className="text-zinc-400 text-base mb-2 font-mono">
                           {link}
                         </div>
                       ))}
                     </div>
 
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      {!showVerificationError ? (
-                        <button
-                          onClick={handleShowArchive}
-                          className="px-6 py-3 bg-white text-zinc-900 font-medium rounded-lg hover:bg-zinc-100 transition-colors flex items-center gap-2"
-                        >
-                          <Lock className="w-4 h-4" />
-                          Показать весь архив
-                        </button>
-                      ) : (
-                        <motion.div
-                          initial={{ opacity: 0, scale: 0.9 }}
-                          animate={{ opacity: 1, scale: 1 }}
-                          className="bg-zinc-900 border border-zinc-700 rounded-lg p-6 text-center max-w-md"
-                        >
-                          <div className="w-12 h-12 bg-red-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <Lock className="w-6 h-6 text-red-400" />
-                          </div>
-                          <p className="text-white text-lg font-medium mb-2">
-                            Вы не верифицированы
-                          </p>
-                          <p className="text-zinc-400 text-sm">
-                            Пожалуйста, пройдите верификацию для доступа к полному архиву
-                          </p>
-                        </motion.div>
-                      )}
+                    <div className="absolute inset-0 flex items-center justify-center z-10">
+                      <button
+                        onClick={handleShowArchive}
+                        className="bg-red-600/20 border border-red-600/50 rounded-xl px-6 py-3 flex items-center gap-2 hover:bg-red-600/30 transition-all backdrop-blur-sm"
+                      >
+                        <Lock className="w-5 h-5 text-red-500" />
+                        <span className="text-white font-medium">Вы не верифицированы</span>
+                      </button>
                     </div>
                   </div>
                 </div>
               )}
             </div>
+
+            {showVerificationError && (
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="bg-red-600/10 border border-red-600/30 rounded-2xl p-6 mb-8"
+              >
+                <div className="flex items-start gap-3">
+                  <Lock className="w-5 h-5 text-red-500 mt-0.5" />
+                  <div>
+                    <h3 className="text-white font-medium mb-2">Доступ ограничен</h3>
+                    <p className="text-zinc-400 text-sm">
+                      Для просмотра полной информации необходима верификация. Пожалуйста, свяжитесь с администрацией.
+                    </p>
+                  </div>
+                </div>
+              </motion.div>
+            )}
           </motion.div>
         </div>
       </div>

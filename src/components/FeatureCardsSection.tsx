@@ -69,6 +69,96 @@ const featureCards = [
     ),
   },
   {
+    id: "3",
+    title: "Kykyzla Grief",
+    subtitle: "2016-2021",
+    illustration: (
+      <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
+        <img
+          src="/images/precision-workflow.png"
+          alt="Иллюстрация точного процесса"
+          className="w-full h-full object-cover"
+          style={{ filter: "invert(1)" }}
+        />
+      </div>
+    ),
+  },
+  {
+    id: "4",
+    title: "Денис Мертвый",
+    subtitle: "2019-2022",
+    illustration: (
+      <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
+        <img
+          src="/images/speed-lines.png"
+          alt="Иллюстрация скорости"
+          className="w-full h-full object-cover"
+          style={{ filter: "invert(1)" }}
+        />
+      </div>
+    ),
+  },
+  {
+    id: "5",
+    title: "Владислав Интерамов",
+    subtitle: "2018-2021",
+    illustration: (
+      <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
+        <img
+          src="/images/precision-workflow.png"
+          alt="Иллюстрация точного процесса"
+          className="w-full h-full object-cover"
+          style={{ filter: "invert(1)" }}
+        />
+      </div>
+    ),
+  },
+  {
+    id: "6",
+    title: "Александр Гаусс",
+    subtitle: "2017-2025",
+    illustration: (
+      <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
+        <img
+          src="/images/speed-lines.png"
+          alt="Иллюстрация скорости"
+          className="w-full h-full object-cover"
+          style={{ filter: "invert(1)" }}
+        />
+      </div>
+    ),
+  },
+  {
+    id: "7",
+    title: "Мирослав Маньяк",
+    subtitle: "2016-2021",
+    illustration: (
+      <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
+        <img
+          src="/images/precision-workflow.png"
+          alt="Иллюстрация точного процесса"
+          className="w-full h-full object-cover"
+          style={{ filter: "invert(1)" }}
+        />
+      </div>
+    ),
+  },
+  {
+    id: "8",
+    title: "Георгий Герасимов",
+    subtitle: "2016-2020",
+    illustration: (
+      <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
+        <img
+          src="/images/speed-lines.png"
+          alt="Иллюстрация скорости"
+          className="w-full h-full object-cover"
+          style={{ filter: "invert(1)" }}
+        />
+      </div>
+    ),
+  },
+  {
     id: "9",
     title: "Виталий Чаосов",
     subtitle: "2020-2022",
@@ -189,7 +279,7 @@ export function FeatureCardsSection() {
                 lineHeight: 1.1,
               }}
             >
-              Пустые архивы готовы
+              Архивы участников
             </motion.h2>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -199,8 +289,7 @@ export function FeatureCardsSection() {
               className="max-w-md"
             >
               <p className="text-zinc-400 leading-relaxed">
-                Каждый архив — это пустой шаблон для человека из комьюнити.
-                Добавьте фото, описание, файлы и другие материалы.{" "}
+                Информация о участниках сообщества. Просмотрите архивы для получения деталей.
               </p>
             </motion.div>
           </div>
