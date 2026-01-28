@@ -116,10 +116,7 @@ export function FeatureCardsSection() {
             >
               <p className="text-zinc-400 leading-relaxed">
                 Каждый архив — это пустой шаблон для человека из комьюнити.
-                Вы сможете добавить фото, описание, файлы и другие материалы.{" "}
-                <a href="#" className="text-white inline-flex items-center gap-1 hover:underline">
-                  Узнать больше <ChevronRight className="w-4 h-4" />
-                </a>
+                Добавьте фото, описание, файлы и другие материалы.{" "}
               </p>
             </motion.div>
           </div>
