@@ -55,8 +55,8 @@ const featureCards = [
   },
   {
     id: "2",
-    title: "Архив #2",
-    subtitle: "Скоро",
+    title: "Алексей Докс",
+    subtitle: "2017-2021",
     illustration: (
       <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
         <img
@@ -69,14 +69,89 @@ const featureCards = [
     ),
   },
   {
-    id: "3",
-    title: "Архив #3",
-    subtitle: "Скоро",
+    id: "9",
+    title: "Виталий Чаосов",
+    subtitle: "2020-2022",
     illustration: (
       <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
         <img
           src="/images/precision-workflow.png"
           alt="Иллюстрация точного процесса"
+          className="w-full h-full object-cover"
+          style={{ filter: "invert(1)" }}
+        />
+      </div>
+    ),
+  },
+  {
+    id: "10",
+    title: "Максим Ландышев",
+    subtitle: "2017-2020",
+    illustration: (
+      <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
+        <img
+          src="/images/speed-lines.png"
+          alt="Иллюстрация скорости"
+          className="w-full h-full object-cover"
+          style={{ filter: "invert(1)" }}
+        />
+      </div>
+    ),
+  },
+  {
+    id: "11",
+    title: "Desu Lt",
+    subtitle: "2019-2022",
+    illustration: (
+      <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
+        <img
+          src="/images/precision-workflow.png"
+          alt="Иллюстрация точного процесса"
+          className="w-full h-full object-cover"
+          style={{ filter: "invert(1)" }}
+        />
+      </div>
+    ),
+  },
+  {
+    id: "12",
+    title: "Алексей Преступление",
+    subtitle: "2017-2022",
+    illustration: (
+      <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
+        <img
+          src="/images/speed-lines.png"
+          alt="Иллюстрация скорости"
+          className="w-full h-full object-cover"
+          style={{ filter: "invert(1)" }}
+        />
+      </div>
+    ),
+  },
+  {
+    id: "13",
+    title: "Клавдий Интерамнский",
+    subtitle: "2016-2022",
+    illustration: (
+      <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
+        <img
+          src="/images/precision-workflow.png"
+          alt="Иллюстрация точного процесса"
+          className="w-full h-full object-cover"
+          style={{ filter: "invert(1)" }}
+        />
+      </div>
+    ),
+  },
+  {
+    id: "23",
+    title: "FrightChronicles",
+    subtitle: "2020",
+    illustration: (
+      <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
+        <img
+          src="/images/speed-lines.png"
+          alt="Иллюстрация скорости"
           className="w-full h-full object-cover"
           style={{ filter: "invert(1)" }}
         />
