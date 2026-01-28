@@ -7,20 +7,14 @@ export function Navbar() {
         <div className="w-full max-w-4xl flex items-center justify-between">
           <div className="flex items-center gap-2">
             <CirclePower className="w-5 h-5 text-white" />
-            <span className="text-white font-semibold">Orbit</span>
+            <span className="text-white font-semibold">Архив</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#" className="text-sm text-zinc-400 hover:text-white transition-colors">
-              Продукт
+              Архивы
             </a>
             <a href="#" className="text-sm text-zinc-400 hover:text-white transition-colors">
-              Ресурсы
-            </a>
-            <a href="#" className="text-sm text-zinc-400 hover:text-white transition-colors">
-              Тарифы
-            </a>
-            <a href="#" className="text-sm text-zinc-400 hover:text-white transition-colors">
-              Клиенты
+              О проекте
             </a>
             <a href="#" className="text-sm text-zinc-400 hover:text-white transition-colors">
               Контакты
